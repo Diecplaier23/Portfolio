@@ -112,7 +112,7 @@ try {
   const profile = config.profile || {};
   const copy = config.copy || {};
 
-  document.title = `${profile.name || "Web Lab"} | Web Lab`;
+  document.title = "Web Lab";
   if (copy.seoDescription) {
     document.querySelector("#seo-description").content = copy.seoDescription;
   }
