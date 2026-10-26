@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "name": "Diego",
+    "role": "Desarrollador web en formación\nEstudiante de DAW",
+    "description": "¡Hola! Soy Diego, estudiante de Desarrollo de Aplicaciones Web (DAW) y desarrollador web en formación. Me apasiona la tecnología y crear proyectos web útiles, intuitivos y bien diseñados. Este portfolio reúne mis proyectos, mi aprendizaje y todo lo que voy construyendo.",
+    "workStatus": "Abierto a oportunidades de desarrollo web y disponible para trabajar entre semana según disponibilidad.",
+    "email": "guardiamedall@gmail.com",
+    "avatar": "C:\\Users\\diego\\Imágenes\\blue_archive.png"
+  },
+  "copy": {
+    "seoDescription": "Portfolio de Diego, estudiante de Desarrollo de Aplicaciones Web y desarrollador web en formación.",
+    "heroGreeting": "Hola, soy",
+    "aboutEyebrow": "01 / Un poco sobre mí",
+    "aboutTitleFirst": "Ideas que toman",
+    "aboutTitleSecond": "forma en la web.",
+    "workStatusLabel": "Ahora mismo",
+    "skillsLabel": "Tecnologías de mis proyectos",
+    "projectsEyebrow": "02 / Selección de trabajo",
+    "projectsTitle": "Proyectos",
+    "projectsIntro": "Una selección de cosas que he creado y estoy construyendo.",
+    "contactEyebrow": "03 / ¿Creamos algo juntos?",
+    "contactTitle": "Hablemos",
+    "contactDescription": "Siempre estoy abierto a conocer nuevas ideas y oportunidades.",
+    "footerNote": "Hecho con intención",
+    "featuredProjectLabel": "Proyecto destacado",
+    "noProjectsMessage": "Pronto habrá proyectos por aquí."
+  },
+  "projects": [
+    {
+      "name": "Deriva",
+      "description": "Planifica el presupuesto de un viaje de forma sencilla. Añade gastos y viajeros, compara los costes con el dinero disponible y calcula cuánto costará el viaje por persona.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://diecplaier23.github.io/Deriva/",
+      "repository": "https://github.com/Diecplaier23/Deriva",
+      "image": "./assets/deriva.svg",
+      "featured": true
+    },
+    {
+      "name": "",
+      "description": "",
+      "technologies": [],
+      "url": "",
+      "repository": "",
+      "image": "",
+      "featured": false
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/Diecplaier23",
+    "linkedin": "",
+    "website": "",
+    "instagram": "https://www.instagram.com/diegousr_07/",
+    "instagramLabel": "@diegousr_07"
+  }
+}

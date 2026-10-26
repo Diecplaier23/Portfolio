@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#211e2b">
+    <meta name="description" id="seo-description" content="Portfolio personal de desarrollo web: presentación, habilidades y proyectos.">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Web Lab | Tu nombre</title>
+    <script src="./src/app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Inicio">portfolio<span>.</span></a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="header-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-profile="workStatus">Cargando estado</span></p>
+          <h1 id="hero-title"><span data-copy="heroGreeting">Hola, soy</span> <span data-profile="name">...</span><span class="accent">.</span><br><span class="hero-subtitle" data-profile="role">...</span></h1>
+          <p class="hero-description" data-profile="description"></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#contacto">Contactar <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-decoration" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbital-core"><span>HOLA</span><strong>✳</strong></div>
+            <span class="art-note note-one">diseño</span>
+            <span class="art-note note-two">código</span>
+            <span class="art-cross">+</span>
+          </div>
+          <img class="profile-avatar" id="profile-avatar" alt="" hidden>
+        </div>
+      </section>
+
+      <section class="about section-wrap" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-copy="aboutEyebrow">01 / Un poco sobre mí</p>
+          <h2 id="about-title"><span data-copy="aboutTitleFirst">Ideas que toman</span><br><span data-copy="aboutTitleSecond">forma en la web.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="about-text" data-profile="description"></p>
+          <div class="about-meta">
+            <div><span class="meta-label" data-copy="workStatusLabel">Ahora mismo</span><span class="meta-value" data-profile="workStatus"></span></div>
+          </div>
+          <div class="skills-block">
+            <p class="meta-label" data-copy="skillsLabel">Tecnologías de mis proyectos</p>
+            <ul class="technology-list skills-list" id="skills-list" aria-label="Tecnologías utilizadas en los proyectos"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-wrap" id="proyectos" aria-labelledby="projects-title">
+        <div class="projects-heading">
+          <div>
+            <p class="section-kicker" data-copy="projectsEyebrow">02 / Selección de trabajo</p>
+            <h2 id="projects-title"><span data-copy="projectsTitle">Proyectos</span><span class="accent">.</span></h2>
+          </div>
+          <p class="projects-intro" data-copy="projectsIntro">Una selección de cosas que he creado y estoy construyendo.</p>
+        </div>
+        <div class="project-grid" id="project-list" aria-live="polite">
+          <p class="loading-message">Cargando proyectos...</p>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contacto" aria-labelledby="contact-title">
+        <p class="section-kicker" data-copy="contactEyebrow">03 / ¿Creamos algo juntos?</p>
+        <h2 id="contact-title"><span data-copy="contactTitle">Hablemos</span><span class="accent">.</span></h2>
+        <p class="contact-copy" data-copy="contactDescription">Siempre estoy abierto a conocer nuevas ideas y oportunidades.</p>
+        <a class="contact-email" id="contact-email" href="#">
+          <img src="./assets/gmail.svg" alt="" width="28" height="28">
+          <span id="contact-address">tu@email.com</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a class="contact-social" id="instagram-link" href="#" hidden>
+          <img src="./assets/instagram.svg" alt="" width="28" height="28">
+          <span id="instagram-label">@tuusuario</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <div class="social-links" id="social-links" aria-label="Redes sociales"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark" href="#inicio">portfolio<span>.</span></a>
+      <p><span data-copy="footerNote">Hecho con intención</span><span class="accent">.</span></p>
+      <div class="footer-credit">
+        <p>Creado por <a href="https://github.com/Diecplaier23" target="_blank" rel="noopener noreferrer">Diecplaier23</a></p>
+        <p>© 2026 Web Lab</p>
+      </div>
+      <a class="back-top" href="#inicio">Volver arriba ↑</a>
+    </footer>
+    <p class="load-error" id="load-error" role="alert" hidden>No se pudo cargar la información. Comprueba que profile.json está disponible y abre esta web desde un servidor local.</p>
+  </body>
+</html>
